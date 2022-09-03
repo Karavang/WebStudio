@@ -1,0 +1,97 @@
+.employeeSi {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  
+  .employees {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .box-emp {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  
+    text-align: center;
+  }
+@media screen and (max-width:767px){
+  .employee-image{
+    width: 100%;
+  
+  } 
+}
+
+@media screen and (min-width:1200px){
+  .employee-image{
+    width: 270px;
+    height: 260px;
+  } 
+}
+
+
+
+
+  .textEI {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--color-for-text-in-the-form);
+  }
+  
+  .headerEI {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    margin-bottom: 10px;
+  
+    color: var(--font-color-dark);
+  }
+
+  .icons-empt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--reg-cust-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  }
+  
+  .icons-empt:hover {
+    color: var(--font-color-light);
+    background-color: var(--logo-and-hover);
+   
+  }
+  
+  .icons-empt:focus {
+    color: var(--font-color-light);
+    background-color: var(--logo-and-hover);
+  
+  }
+
+  .icons-emp {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .icon-emp {
+    fill: currentColor;
+  
+    height: 20px;
+    width: 20px;
+  }
+
+  .our-team {
+    background-color: var(--back-section);
+  }

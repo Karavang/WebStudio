@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+  
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container center">
+        <a href="index.html" class="logo pos-mobile link"> Web<span class="spanblack">Studio</span> </a>
+        <nav>
+          <ul class="menu-flex list">
+            <li><a href="index.html" class="menu link nav ">Студия</a></li>
+            <li><a href="protfolio.html" class="menu link nav current">Портфолио</a></li>
+            <li><a href="index.html" class="menu link nav">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header-contact-flex">
+          <a href="mailto:info@devstudio.com" class="header-contact inf link">
+            <svg class="icon-header1 icon-header">
+              <use href="./img/sprite.svg#icon-post"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+
+          <a href="tel:+380991111111" class="header-contact inf link">
+            <svg class="icon-header2 icon-header" >
+              <use href="./img/sprite.svg#icon-phone"></use>
+            </svg>
+            +38 099 111 11 11</a
+          >
+        </div>
+        <button type="button" class="mobile-menu-open list" data-menu-open>
+          <svg class="burger" >
+            <use href="./img/sprite.svg#burger"></use>
+          </svg>
+        </button>
+      </div>
+   <div class="mobile-modal list" data-menu>
+    <div class="container mobile-container">
+<button type="button" class="button-close-mobile" data-menu-close><svg class="mobile-close-button">
+  <use  href="./img/sprite.svg#close" width="18.67" height="18.67" >
+
+</use>
+
+</svg>
+</button>
+<ul class="mobile-menu">
+  <li class="mobile-menu-flex"><a class="link mobile-menu-item" href="index.html">Студия</a></li>
+  <li class="mobile-menu-flex"><a class="link mobile-menu-item current" href="protfolio.html">Портфолио</a></li>
+  <li class="mobile-menu-flex"><a class="link mobile-menu-item" href="#">Контакты</a></li>
+</ul>
+<ul class="mobile-contacts">
+  <li class="mobile-contact">+38 096 111 11 11</li>
+  <li class="mobile-contact">info@devstudio.com</li>
+</ul>
+<ul class="mobile-links">
+  <li><a class="link mobile-link" href="#">Instagram</a></li>
+  <li><a class="link mobile-link" href="#">Twitter</a></li>
+  <li><a class="link mobile-link" href="#">Facebook</a></li>
+  <li><a class="link mobile-link" href="#">LinkedIn</a></li>
+</ul>
+
+</div> 
+   </div>
+    </header>
+    <main>
+      <section class="section">
+        <h1 class="visually-hidden">any</h1>
+        <div class="container">
+          <div class="gap-buttons-filling">
+          <ul class="button-list list center container">
+            <li><button type="button" class="button">Всё</button></li>
+            <li><button type="button" class="button">Веб-сайты</button></li>
+            <li><button type="button" class="button">Приложения</button></li>
+            <li><button type="button" class="button">Дизайн</button></li>
+            <li><button type="button" class="button">Маркетинг</button></li>
+          </ul>
+        </div>
+        
+      <ul class="card list ">
+        <li class="card-box">
+          <a class="filling-link" href="#">
+            <div class="position ">
+              <picture>
+                  
+                <source srcset="
+                    ./img/portfolio/project-desktop1.jpg    1x,
+                    ./img/portfolio/project-desktop1@2x.jpg 2x,
+                    ./img/portfolio/project-desktop1@3x.jpg 3x
+                  " media="(min-width: 1200px)">
+           
+                <source srcset="
+                    ./img/portfolio/project-tablet1.jpg    1x,
+                    ./img/portfolio/project-tablet1@2x.jpg 2x,
+                    ./img/portfolio/project-tablet1@3x.jpg 3x
+                  " media="(min-width: 768px)">
+             
+                <source srcset="
+                    ./img/portfolio/project-phone1.jpg    1x,
+                    ./img/portfolio/project-phone1@2x.jpg 2x,
+                    ./img/portfolio/project-phone1@3x.jpg 3x
+                  " media="(max-width: 767px)">
+                <img class="card-image" src="./img/portfolio/1.jpg" alt="Технокряк">
+              </picture>
+          <p class="text-on-image center">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+        </div>
+          <div class="card-text">
+            <h3 class="card-text-title">Технокряк</h3>
+
+            <p class="card-text-description">Веб-сайт</p>
+          </div>
+        </a>
+        </li>
+
+        <li class="card-box">
+          <a class="filling-link" href="#">
+            <picture>
+                  
+              <source srcset="
+                  ./img/portfolio/project-desktop2.jpg    1x,
+                  ./img/portfolio/project-desktop2@2x.jpg 2x,
+                  ./img/portfolio/project-desktop2@3x.jpg 3x
+                " media="(min-width: 1200px)">
+         
+              <source srcset="
+              ./img/portfolio/project-tablet2.jpg    1x,
+              ./img/portfolio/project-tablet2@2x.jpg 2x,
+              ./img/portfolio/project-tablet2@3x.jpg 3x
+                " media="(min-width: 768px)">
+           
+              <source srcset="
+              ./img/portfolio/project-phone2.jpg    1x,
+              ./img/portfolio/project-phone2@2x.jpg 2x,
+              ./img/portfolio/project-phone2@3x.jpg 3x
+                " media="(max-width: 767px)">
+              <img class="card-image" src="./img/portfolio/2.jpg" alt="Постер New Orlean vs Golden Star">
+            </picture>
+          <div class="card-text">
+            <h3 class="card-text-title">Постер New Orlean vs Golden Star</h3>
+
+            <p class="card-text-description">Дизайн</p>
+          </div>
+        </a>
+        </li>
+
+        <li class="card-box">
+          <a class="filling-link" href="#">
+            <picture>
+                  
+              <source srcset="
+              ./img/portfolio/project-desktop3.jpg    1x,
+              ./img/portfolio/project-desktop3@2x.jpg 2x,
+              ./img/portfolio/project-desktop3@3x.jpg 3x
+                " media="(min-width: 1200px)">
+         
+              <source srcset="
+              ./img/portfolio/project-tablet3.jpg    1x,
+              ./img/portfolio/project-tablet3@2x.jpg 2x,
+              ./img/portfolio/project-tablet3@3x.jpg 3x
+                " media="(min-width: 768px)">
+           
+              <source srcset="
+              ./img/portfolio/project-phone3.jpg    1x,
+              ./img/portfolio/project-phone3@2x.jpg 2x,
+              ./img/portfolio/project-phone3@3x.jpg 3x
+                " media="(max-width: 767px)">
+              <img class="card-image" src="./images/portfolio/lab-desktop.jpg" alt="Ресторан Seafood">
+            </picture>
+          <div class="card-text">
+            <h3 class="card-text-title">Ресторан Seafood</h3>
+
+            <p class="card-text-description">Приложение</p>
+          </div>
+        </a>
+        </li>
+    
+        <li class="card-box">
+          <a class="filling-link" href="#">
+            <picture>
+                  
+              <source srcset="
+              ./img/portfolio/project-desktop4.jpg    1x,
+              ./img/portfolio/project-desktop4@2x.jpg 2x,
+              ./img/portfolio/project-desktop4@3x.jpg 3x
+                " media="(min-width: 1200px)">
+         
+              <source srcset="
+              ./img/portfolio/project-tablet4.jpg    1x,
+              ./img/portfolio/project-tablet4@2x.jpg 2x,
+              ./img/portfolio/project-tablet4@3x.jpg 3x
+                " media="(min-width: 768px)">
+           
+              <source srcset="
+              ./img/portfolio/project-phone4.jpg    1x,
+              ./img/portfolio/project-phone4@2x.jpg 2x,
+              ./img/portfolio/project-phone4@3x.jpg 3x
+                " media="(max-width: 767px)">
+              <img class="card-image" src="./images/portfolio/lab-desktop.jpg" alt="роект Prime">
+            </picture>
+          <div class="card-text">
+            <h3 class="card-text-title">Проект Prime</h3>
+
+            <p class="card-text-description">Маркетинг</p>
+          </div>
+        </a>
+        </li>
+
+        <li class="card-box">
+          <a class="filling-link" href="#">
+            <picture>
+                  
+              <source srcset="
+              ./img/portfolio/project-desktop5.jpg    1x,
+              ./img/portfolio/project-desktop5@2x.jpg 2x,
+              ./img/portfolio/project-desktop5@3x.jpg 3x
+                " media="(min-width: 1200px)">
+         
+              <source srcset="
+              ./img/portfolio/project-tablet5.jpg    1x,
+              ./img/portfolio/project-tablet5@2x.jpg 2x,
+              ./img/portfolio/project-tablet5@3x.jpg 3x
+                " media="(min-width: 768px)">
+           
+              <source srcset="
+              ./img/portfolio/project-phone5.jpg    1x,
+              ./img/portfolio/project-phone5@2x.jpg 2x,
+              ./img/portfolio/project-phone5@3x.jpg 3x
+                " media="(max-width: 767px)">
+              <img class="card-image" src="./images/portfolio/lab-desktop.jpg" alt="Проект Boxes">
+            </picture>
+          <div class="card-text">
+            <h3 class="card-text-title">Проект Boxes</h3>
+
+            <p class="card-text-description">Приложение</p>
+          </div>
+        </a>
+        </li>
+
+        <li class="card-box">
+          <a class="filling-link" href="#">
+            <picture>
+                  
+              <source srcset="
+              ./img/portfolio/project-desktop6.jpg    1x,
+              ./img/portfolio/project-desktop6@2x.jpg 2x,
+              ./img/portfolio/project-desktop6@3x.jpg 3x
+                " media="(min-width: 1200px)">
+         
+              <source srcset="
+              ./img/portfolio/project-tablet6.jpg    1x,
+              ./img/portfolio/project-tablet6@2x.jpg 2x,
+              ./img/portfolio/project-tablet6@3x.jpg 3x
+                " media="(min-width: 768px)">
+           
+              <source srcset="
+              ./img/portfolio/project-phone6.jpg    1x,
+              ./img/portfolio/project-phone6@2x.jpg 2x,
+              ./img/portfolio/project-phone6@3x.jpg 3x
+                " media="(max-width: 767px)">
+              <img class="card-image" src="./images/portfolio/lab-desktop.jpg" alt="Inspiration has no Borders">
+            </picture>
+          <div class="card-text">
+            <h3 class="card-text-title">Inspiration has no Borders</h3>
+
+            <p class="card-text-description">Веб-сайт</p>
+          </div>
+          </a>
+        </li>
+
+        <li class="card-box">
+          <a class="filling-link" href="#">
+            <picture>
+                  
+              <source srcset="
+              ./img/portfolio/project-desktop7.jpg    1x,
+              ./img/portfolio/project-desktop7@2x.jpg 2x,
+              ./img/portfolio/project-desktop7@3x.jpg 3x
+                " media="(min-width: 1200px)">
+         
+              <source srcset="
+              ./img/portfolio/project-tablet7.jpg    1x,
+              ./img/portfolio/project-tablet7@2x.jpg 2x,
+              ./img/portfolio/project-tablet7@3x.jpg 3x
+                " media="(min-width: 768px)">
+           
+              <source srcset="
+              ./img/portfolio/project-phone7.jpg    1x,
+              ./img/portfolio/project-phone7@2x.jpg 2x,
+              ./img/portfolio/project-phone7@3x.jpg 3x
+                " media="(max-width: 767px)">
+              <img class="card-image" src="./images/portfolio/lab-desktop.jpg" alt="Издание Limited Edition">
+            </picture>
+          <div class="card-text">
+            <h3 class="card-text-title">Издание Limited Edition</h3>
+
+            <p class="card-text-description">Дизайн</p>
+          </div>
+          </a>
+        </li>
+
+        <li class="card-box">
+          <a class="filling-link" href="#">
+            <picture>
+                  
+              <source srcset="
+              ./img/portfolio/project-desktop8.jpg    1x,
+              ./img/portfolio/project-desktop8@2x.jpg 2x,
+              ./img/portfolio/project-desktop8@3x.jpg 3x
+                " media="(min-width: 1200px)">
+         
+              <source srcset="
+              ./img/portfolio/project-tablet8.jpg    1x,
+              ./img/portfolio/project-tablet8@2x.jpg 2x,
+              ./img/portfolio/project-tablet8@3x.jpg 3x
+                " media="(min-width: 768px)">
+           
+              <source srcset="
+              ./img/portfolio/project-phone8.jpg    1x,
+              ./img/portfolio/project-phone8@2x.jpg 2x,
+              ./img/portfolio/project-phone8@3x.jpg 3x
+                " media="(max-width: 767px)">
+              <img class="card-image" src="./images/portfolio/lab-desktop.jpg" alt="Проект LAB">
+            </picture>
+          <div class="card-text">
+            <h3 class="card-text-title">Проект LAB</h3>
+
+            <p class="card-text-description">Маркетинг</p>
+          </div>
+          </a>
+        </li>
+
+        <li class="card-box">
+          <a class="filling-link" href="#">
+          <picture>
+                  
+                    <source srcset="
+                    ./img/portfolio/project-desktop9.jpg    1x,
+                    ./img/portfolio/project-desktop9@2x.jpg 2x,
+                    ./img/portfolio/project-desktop9@3x.jpg 3x
+                      " media="(min-width: 1200px)">
+               
+                    <source srcset="
+                    ./img/portfolio/project-tablet9.jpg    1x,
+                    ./img/portfolio/project-tablet9@2x.jpg 2x,
+                    ./img/portfolio/project-tablet9@3x.jpg 3x
+                      " media="(min-width: 768px)">
+                 
+                    <source srcset="
+                    ./img/portfolio/project-phone9.jpg    1x,
+                    ./img/portfolio/project-phone9@2x.jpg 2x,
+                    ./img/portfolio/project-phone9@3x.jpg 3x
+                      " media="(max-width: 767px)">
+                    <img class="card-image" src="./images/portfolio/lab-desktop.jpg" alt="Growing Business">
+                  </picture>
+          <div class="card-text">
+            <h3 class="card-text-title">Growing Business</h3>
+
+            <p class="card-text-description">Приложение</p>
+          </div>
+          </a>
+        </li>
+      </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-flex">
+        <div class="withlogo-footer ">
+          
+          <address>
+            <ul class="list withlogo-footer-flex">
+              <li  class="address-item "><a href="index.html" class="logo-footer"> Web<span class="spanwhite">Studio</span> </a></li>
+              <li>
+                <a
+                  href="https://goo.gl/maps/kG7tMFbioSQrBenT9"
+                  target="_blank"
+                  rel="noopener,nofollow"
+                  class="textfooter address-item"
+                >
+                  г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="mailto:info@example.com" class="textfooter textfooter-opacity"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="tell:+380991111111" class="textfooter textfooter-opacity"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-icons">
+          <p class="text-join">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <ul class="icons-emp list">
+            <li>
+              <a class="icons-footer"  href="#"><svg class="icon-emp">
+                <use href="./img/sprite.svg#instagram"></use>
+              </svg></a>
+              
+            </li>
+            <li>
+              <a class="icons-footer" href="#"> <svg class="icon-emp">
+                <use href="./img/sprite.svg#facebook"></use>
+              </svg></a>
+             
+            </li>
+            <li>
+              <a class="icons-footer" href="#"> <svg class="icon-emp">
+                <use href="./img/sprite.svg#twitter"></use>
+              </svg></a>
+             
+            </li>
+            <li>
+              <a class="icons-footer" href="#"> <svg class="icon-emp">
+                <use href="./img/sprite.svg#linkedin"></use>
+              </svg></a>
+             
+            </li>
+          </ul>
+        </div>
+        <div class="sub-tg">
+          <p class="text-sub">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+          <ul class="list sub-footer">
+            <li class="sub-item">
+              <input type="email" class="text-sub-footer"  placeholder="E-mail" name="user-email"/>
+            </li>
+            <li class="sub-item">
+              <label class="form-rel"><button class="button-footer" type="submit">Подписаться<svg class="tg-icon" width="24px" height="24px"><use href="./img/sprite.svg#tg"></use> </svg></button>
+                </label>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/mobile.js"></script>   
+ <script src="./js/modal.js"></script>
+  </body>
+</html>

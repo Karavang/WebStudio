@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+   
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container center ">
+        <a href="index.html" class="logo pos-mobile link"> Web<span class="spanblack">Studio</span> </a>
+        <nav>
+          <ul class="menu-flex list">
+            <li><a href="index.html" class="menu link nav current">Студия</a></li>
+            <li><a href="protfolio.html" class="menu link nav">Портфолио</a></li>
+            <li><a href="index.html" class="menu link nav">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header-contact-flex">
+          <a href="mailto:info@devstudio.com" class="header-contact inf link">
+            <svg class="icon-header1 icon-header">
+              <use href="./img/sprite.svg#icon-post"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+
+          <a href="tel:+380991111111" class="header-contact inf link">
+            <svg class="icon-header2 icon-header" >
+              <use href="./img/sprite.svg#icon-phone"></use>
+            </svg>
+            +38 099 111 11 11</a
+          >
+        </div>
+        <button type="button" class="mobile-menu-open list" data-menu-open>
+          <svg class="burger" >
+            <use href="./img/sprite.svg#burger"></use>
+          </svg>
+        </button>
+      </div>
+   <div class="mobile-modal list" data-menu>
+    <div class="container mobile-container">
+<button type="button" class="button-close-mobile" data-menu-close><svg class="mobile-close-button">
+  <use  href="./img/sprite.svg#close" width="18.67" height="18.67" >
+
+</use>
+
+</svg>
+</button>
+<ul class="mobile-menu list">
+  <li class="mobile-menu-flex"><a class="link mobile-menu-item current" href="index.html">Студия</a></li>
+  <li class="mobile-menu-flex"><a class="link mobile-menu-item" href="protfolio.html">Портфолио</a></li>
+  <li class="mobile-menu-flex"><a class="link mobile-menu-item" href="#">Контакты</a></li>
+</ul>
+<ul class="mobile-contacts list">
+  <li class="mobile-contact">+38 096 111 11 11</li>
+  <li class="mobile-contact">info@devstudio.com</li>
+</ul>
+<ul class="mobile-links list">
+  <li><a class="link mobile-link mobile-link-stick" href="#">Instagram</a></li>
+  <li><a class="link mobile-link mobile-link-stick" href="#">Twitter</a></li>
+  <li><a class="link mobile-link mobile-link-stick" href="#">Facebook</a></li>
+  <li><a class="link mobile-link" href="#">LinkedIn</a></li>
+</ul>
+
+</div> 
+   </div>
+    </header>
+
+    <main>
+      <section class="hero back-hero">
+        <div class="container">
+          <h1 class="font-hero">Эффективные решения для Вашего бизнеса</h1>
+
+          <button type="button" class="button-hero" data-modal-open>Заказать услугу</button>
+        </div>
+      </section>
+      <section class="our-differences section">
+        <div class="container">
+          <h2 class="visually-hidden">Наши особенности</h2>
+          <ul class="diffs-flex list">
+            <li class="diffs-item">
+              <div class="diff-area">
+                <svg class="diff-img">
+                  <use href="./img/sprite.svg#antenna"></use>
+                </svg>
+              </div>
+
+              <h3 class="diffs-header">Внимание к деталям</h3>
+
+              <p class="diffs-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+
+            <li class="diffs-item">
+              <div class="diff-area">
+                <svg class="diff-img">
+                  <use href="./img/sprite.svg#clock"></use>
+                </svg>
+              </div>
+
+              <h3 class="diffs-header">Пунктуальность</h3>
+
+              <p class="diffs-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+
+            <li class="diffs-item">
+              <div class="diff-area">
+                <svg class="diff-img">
+                  <use href="./img/sprite.svg#diagram"></use>
+                </svg>
+              </div>
+
+              <h3 class="diffs-header">Планирование</h3>
+
+              <p class="diffs-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+
+            <li class="diffs-item">
+              <div class="diff-area">
+                <svg class="diff-img">
+                 
+                  <use href="./img/sprite.svg#astronaut"></use>
+                </svg>
+              </div>
+
+              <h3 class="diffs-header">Современные технологии</h3>
+              <p class="diffs-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="what-are-we-doing section">
+        <div class="container">
+          <h2 class="what-are-we-doing-header">Чем мы занимаемся</h2>
+
+          <ul class="wawd-flex center list">
+            <li class="pos-wawd">
+              
+              <picture>
+                  
+                <source srcset="
+                    ./img/index/wedo/computer.jpg    1x,
+                    ./img/index/wedo/computer@2x.jpg  2x,
+                    ./img/index/wedo/computer@3x.jpg  3x
+                  " media="(min-width: 1200px)">
+           
+                <source srcset="
+                ./img/index/wedo/computer.jpg    1x,
+                    ./img/index/wedo/computer@2x.jpg  2x,
+                    ./img/index/wedo/computer@3x.jpg  3x
+                  " media="(min-width: 768px)">
+             
+                <source srcset="
+                ./img/index/wedo/computer.jpg    1x,
+                    ./img/index/wedo/computer@2x.jpg  2x,
+                    ./img/index/wedo/computer@3x.jpg  3x
+                  " media="(max-width: 767px)">
+                <img class="wawd-img" src="./img/index/wedo/computer.jpg" alt="Постер New Orlean vs Golden Star">
+              </picture>
+              <p class="text-what-are-we-doing">Десктопные приложения</p>
+            </li>
+         
+            <li class="pos-wawd">
+               
+              <picture>
+                  
+                <source srcset="
+                ./img/index/wedo/phone.jpg    1x,
+                ./img/index/wedo/phone@2x.jpg  2x,
+                ./img/index/wedo/phone@3x.jpg  3x
+                  " media="(min-width: 1200px)">
+           
+                <source srcset="
+                ./img/index/wedo/phone.jpg    1x,
+                ./img/index/wedo/phone@2x.jpg  2x,
+                ./img/index/wedo/phone@3x.jpg  3x
+                  " media="(min-width: 768px)">
+             
+                <source srcset="
+                ./img/index/wedo/phone.jpg    1x,
+                ./img/index/wedo/phone@2x.jpg  2x,
+                ./img/index/wedo/phone@3x.jpg  3x
+                  " media="(max-width: 767px)">
+                <img class="wawd-img" src="./img/index/wedo/phone.jpg" alt="Постер New Orlean vs Golden Star">
+              </picture>
+              <p class="text-what-are-we-doing">Мобильные приложения</p>
+            </li>
+           
+            <li class="pos-wawd">
+            
+              <picture>
+                  
+                <source srcset="
+                ./img/index/wedo/tablet.jpg    1x,
+                ./img/index/wedo/tablet@2x.jpg  2x,
+                ./img/index/wedo/tablet@3x.jpg  3x
+                  " media="(min-width: 1200px)">
+           
+                <source srcset="
+                ./img/index/wedo/tablet.jpg    1x,
+                ./img/index/wedo/tablet@2x.jpg  2x,
+                ./img/index/wedo/tablet@3x.jpg  3x
+                  " media="(min-width: 768px)">
+             
+                <source srcset="
+                ./img/index/wedo/tablet.jpg    1x,
+                ./img/index/wedo/tablet@2x.jpg  2x,
+                ./img/index/wedo/tablet@3x.jpg  3x
+                  " media="(max-width: 767px)">
+                <img class="wawd-img" src="./img/index/wedo/tablet.jpg" alt="Постер New Orlean vs Golden Star">
+              </picture>
+              <p class="text-what-are-we-doing">Дизайнерские решения</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="our-team section">
+        <div class="container">
+          <h2 class="what-are-we-doing-header">Наша команда</h2>
+          <div class="center">
+            <ul class="employees center list">
+              
+              <li class="box-emp">
+               
+                <div>
+                 
+                  <picture>
+                  
+                    <source srcset="
+                        ./img/index/team/team-desktop1.jpg    1x,
+                        ./img/index/team/team-desktop1@2x.jpg 2x,
+                        ./img/index/team/team-desktop1@3x.jpg 3x
+                      " media="(min-width: 1200px)">
+               
+                    <source srcset="
+                    ./img/index/team/team-tablet1.jpg    1x,
+                        ./img/index/team/team-tablet1@2x.jpg 2x,
+                        ./img/index/team/team-tablet1@3x.jpg 3x
+                      " media="(min-width: 768px)">
+                 
+                    <source srcset="
+                     ./img/index/team/team-phone1.jpg    1x,
+                        ./img/index/team/team-phone1@2x.jpg 2x,
+                        ./img/index/team/team-phone1@3x.jpg 3x
+                      " media="(max-width: 767px)">
+                    <img class="employee-image" src="./img/portfolio/2.jpg" alt="Постер New Orlean vs Golden Star">
+                  </picture>
+                
+              
+              </div>
+                <div class="employeeSi">
+                  <h3 class="headerEI">Игорь Демьяненко</h3>
+
+                  <p class="textEI">Product Designer</p>
+
+                  <ul class="icons-emp list">
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#instagram"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#facebook"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#twitter"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#linkedin"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                 
+                  </ul>
+                </div>
+              </li>
+
+              <li class="box-emp">
+                <picture>
+                  
+                  <source srcset="
+                  ./img/index/team/team-desktop2.jpg    1x,
+                  ./img/index/team/team-desktop2@2x.jpg 2x,
+                  ./img/index/team/team-desktop2@3x.jpg 3x
+                    " media="(min-width: 1200px)">
+             
+                  <source srcset="
+                  ./img/index/team/team-tablet2.jpg    1x,
+                        ./img/index/team/team-tablet2@2x.jpg 2x,
+                        ./img/index/team/team-tablet2@3x.jpg 3x
+                    " media="(min-width: 768px)">
+               
+                  <source srcset="
+                   ./img/index/team/team-phone2.jpg    1x,
+                        ./img/index/team/team-phone2@2x.jpg 2x,
+                        ./img/index/team/team-phone2@3x.jpg 3x
+                    " media="(max-width: 767px)">
+                  <img class="employee-image" src="./img/portfolio/2.jpg" alt="Постер New Orlean vs Golden Star">
+                </picture>
+                <div class="employeeSi">
+                  <h3 class="headerEI">Ольга Репина</h3>
+
+                  <p class="textEI">Frontend Developer</p>
+                  <ul class="icons-emp list">
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <svg class="icon-emp">
+                          <use href="./img/sprite.svg#instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <svg class="icon-emp">
+                          <use href="./img/sprite.svg#facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <svg class="icon-emp">
+                          <use href="./img/sprite.svg#twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <svg class="icon-emp">
+                          <use href="./img/sprite.svg#linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="box-emp">
+                <picture>
+                  
+                  <source srcset="
+                  ./img/index/team/team-desktop3.jpg    1x,
+                  ./img/index/team/team-desktop3@2x.jpg 2x,
+                  ./img/index/team/team-desktop3@3x.jpg 3x
+                    " media="(min-width: 1200px)">
+             
+                  <source srcset="
+                  ./img/index/team/team-tablet3.jpg    1x,
+                  ./img/index/team/team-tablet3@2x.jpg 2x,
+                  ./img/index/team/team-tablet3@3x.jpg 3x 
+                    " media="(min-width: 768px)">
+               
+                  <source srcset="
+                 ./img/index/team/team-phone3.jpg    1x,
+                        ./img/index/team/team-phone3@2x.jpg 2x,
+                        ./img/index/team/team-phone3@3x.jpg 3x
+                    " media="(max-width: 767px)">
+                  <img class="employee-image" src="./img/portfolio/2.jpg" alt="Постер New Orlean vs Golden Star">
+                </picture>
+                <div class="employeeSi">
+                  <h3 class="headerEI">Николай Тарасов</h3>
+
+                  <p class="textEI">Marketing</p>
+                  <ul class="icons-emp list">
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#instagram"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#facebook"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#twitter"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#linkedin"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="box-emp">
+                <picture>
+                  
+                  <source srcset="
+                  ./img/index/team/team-desktop4.jpg    1x,
+                  ./img/index/team/team-desktop4@2x.jpg 2x,
+                  ./img/index/team/team-desktop4@3x.jpg 3x
+                    " media="(min-width: 1200px)">
+             
+                  <source srcset="
+                  ./img/index/team/team-tablet4.jpg    1x,
+                        ./img/index/team/team-tablet4@2x.jpg 2x,
+                        ./img/index/team/team-tablet4@3x.jpg 3x
+                    " media="(min-width: 768px)">
+               
+                  <source srcset="
+                   ./img/index/team/team-phone4.jpg    1x,
+                        ./img/index/team/team-phone4@2x.jpg 2x,
+                        ./img/index/team/team-phone4@3x.jpg 3x
+                    " media="(max-width: 767px)">
+                  <img class="employee-image" src="./img/portfolio/2.jpg" alt="Постер New Orlean vs Golden Star">
+                </picture>
+                <div class="employeeSi">
+                  <h3 class="headerEI">Михаил Ермаков</h3>
+
+                  <p class="textEI">UI Designer</p>
+                  <ul class="icons-emp list">
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#instagram"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#facebook"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#twitter"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icons-empt" href="#">
+                        <div>
+                          <svg class="icon-emp">
+                            <use href="./img/sprite.svg#linkedin"></use>
+                          </svg>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="what-are-we-doing-header">Постоянные клиенты</h2>
+          <ul class="list sponsors center">
+            <li>
+              <a class="reg-cust" href="#">
+                <svg>
+                  <use href="./img/sprite.svg#icon-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="reg-cust" href="#">
+                <svg>
+                  <use href="./img/sprite.svg#icon-2"></use></svg>
+                </a>
+            </li>
+            <li>
+              <a class="reg-cust" href="#"><svg>
+             <use href="./img/sprite.svg#icon-3"></use>
+             
+            </svg></a>
+              
+            </li>
+            <li>
+              <a class="reg-cust" href="#"><svg>
+                <use href="./img/sprite.svg#icon-4"></use>
+              </svg></a>
+              
+            </li>
+            <li>
+              <a class="reg-cust" href="#"><svg>
+                <use href="./img/sprite.svg#icon-5"></use>
+              </svg></a>
+              
+            </li>
+            <li>
+              <a class="reg-cust" href="#"> <svg>
+                <use href="./img/sprite.svg#icon-6"></use>
+              </svg></a>
+             
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-flex">
+        <div class="withlogo-footer pos-footer">
+          
+          <address>
+            <ul class="list withlogo-footer-flex">
+              <li  class="address-item "><a href="index.html" class="logo-footer"> Web<span class="spanwhite">Studio</span> </a></li>
+              <li>
+                <a
+                  href="https://goo.gl/maps/kG7tMFbioSQrBenT9"
+                  target="_blank"
+                  rel="noopener,nofollow"
+                  class="textfooter"
+                >
+                  г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="mailto:info@example.com" class="textfooter textfooter-opacity"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="tell:+380991111111" class="textfooter textfooter-opacity"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-icons">
+          <p class="text-join">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <ul class="icons-emp list">
+            <li>
+              <a class="icons-footer"  href="#"><svg class="icon-emp">
+                <use href="./img/sprite.svg#instagram"></use>
+              </svg></a>
+              
+            </li>
+            <li>
+              <a class="icons-footer" href="#"> <svg class="icon-emp">
+                <use href="./img/sprite.svg#facebook"></use>
+              </svg></a>
+             
+            </li>
+            <li>
+              <a class="icons-footer" href="#"> <svg class="icon-emp">
+                <use href="./img/sprite.svg#twitter"></use>
+              </svg></a>
+             
+            </li>
+            <li>
+              <a class="icons-footer" href="#"> <svg class="icon-emp">
+                <use href="./img/sprite.svg#linkedin"></use>
+              </svg></a>
+             
+            </li>
+          </ul>
+        </div>
+        <div class="sub-tg">
+          <p class="text-sub">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+          <ul class="list sub-footer">
+            <li class="sub-item">
+              <input type="email" class="text-sub-footer"  placeholder="E-mail" name="user-email"/>
+            </li>
+            <li class="sub-item">
+              <label class="form-rel"><button class="button-footer" type="submit">Подписаться<svg class="tg-icon" width="24px" height="24px"><use href="./img/sprite.svg#tg" ></use> </svg></button>
+                </label>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <p class="header-modal">Оставьте свои данные, мы вам перезвоним</p>
+        <form class="form">
+          
+      <div class="form-item"> <label class="appointment form-item">Имя
+              <div class="form-rel"><input type="text" class="text-area" name="user-name" required/>
+                <svg class="form-icons" width="12px" height="12px"><use href="./img/sprite.svg#form-user"></use></svg></div></label></div>
+          <div class="form-item"> <label class="appointment form-item">Телефон
+            <div class="form-rel"><input type="tel" class="text-area" name="user-phone" required/>
+              <svg class="form-icons" width="13px" height="13px"><use href="./img/sprite.svg#form-tell"></use></svg>
+            </div></label></div>
+            <div class="form-item"> <label class="appointment form-item">Почта
+            <div class="form-rel"> <input type="email" class="text-area" name="user-email" required/>
+              <svg class="form-icons" width="15px" height="12px"><use href="./img/sprite.svg#form-message"></use></svg>
+            </label>
+          </div>
+            </div>
+            <div class="form-item"></div><label class="appointment form-item">Комментарий
+            <textarea type="text" class="text-area-last" placeholder="Введите текст" name="comments"></textarea></label>
+          <div class="form-item-last terms">
+            <input type="checkbox" name="term-of-use">
+            <p class="term-text">Соглашаюсь с рассылкой и принимаю <a href="#" class="term-link">Условия договора </a></p>  
+          </div>
+
+         <div class="center padding-button-form">
+          <button type="submit" class="button-form button-hero">Отправить</button>
+        </div>
+          
+        </form>
+<button type="button" class="modal-window" data-modal-close>
+<svg class="close-icon" width="18" height="18">
+  <use href="./img/sprite.svg#close"></use>
+</svg></button>
+      </div>
+    </div>
+    <script src="./js/mobile.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+
+</html>

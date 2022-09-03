@@ -1,0 +1,27 @@
+.text-on-image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    transform: translate(0, 100%);
+    transition: transform 250ms linear;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(33, 150, 243, 0.9);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+  
+    letter-spacing: 0.03em;
+  }
+  
+  .card-box:hover .text-on-image {
+    transform: translate(0, 0);
+  }
+  
